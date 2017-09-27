@@ -29,6 +29,14 @@ var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._sel
     staticClass: "col-sm-3 col-md-3 col-lg-3"
   }, [_c('vcNavSide103')], 1), _vm._v(" "), _c('div', {
     staticClass: "col-sm-9 col-md-9 col-lg-9"
+  }, [_vm._v("39")])]), _vm._v(" "), _c('h2', {
+    staticClass: "item-id"
+  }, [_vm._v("vcNavSide104")]), _vm._v(" "), _c('div', {
+    staticClass: "row"
+  }, [_c('div', {
+    staticClass: "col-sm-3 col-md-3 col-lg-3"
+  }, [_c('vcNavSide104')], 1), _vm._v(" "), _c('div', {
+    staticClass: "col-sm-9 col-md-9 col-lg-9"
   }, [_vm._v("39")])])])
 }
 var staticRenderFns = []
@@ -131,15 +139,27 @@ if (false) {(function () {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 var vcNavSide101 = function vcNavSide101() {
-  return __webpack_require__.e/* import() */(6).then(__webpack_require__.bind(null, 9));
+  return __webpack_require__.e/* import() */(8).then(__webpack_require__.bind(null, 9));
 };
 var vcNavSide102 = function vcNavSide102() {
-  return __webpack_require__.e/* import() */(5).then(__webpack_require__.bind(null, 14));
+  return __webpack_require__.e/* import() */(7).then(__webpack_require__.bind(null, 14));
 };
 var vcNavSide103 = function vcNavSide103() {
-  return __webpack_require__.e/* import() */(1).then(__webpack_require__.bind(null, 17));
+  return __webpack_require__.e/* import() */(4).then(__webpack_require__.bind(null, 17));
+};
+var vcNavSide104 = function vcNavSide104() {
+  return __webpack_require__.e/* import() */(3).then(__webpack_require__.bind(null, 20));
 };
 /* harmony default export */ __webpack_exports__["a"] = ({
   data: function data() {
@@ -149,7 +169,8 @@ var vcNavSide103 = function vcNavSide103() {
   components: {
     vcNavSide101: vcNavSide101,
     vcNavSide102: vcNavSide102,
-    vcNavSide103: vcNavSide103
+    vcNavSide103: vcNavSide103,
+    vcNavSide104: vcNavSide104
   },
   mounted: function mounted() {
     // console.log("Home.vue mounted");
